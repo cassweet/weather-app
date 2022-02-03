@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 
+* {background-color: #ebf3fb}
+
 .main{
     width: 700px;
+    border-color:white;
     border-radius: 15px;
     background-color: #01579b;
+    align-content: center;
 }
 
 #card{
+    width: 45%;
     background-color: #ebf3fb;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px #E8E8E8;
 }
 
 .header{
@@ -38,7 +46,7 @@
 }
 
 .description{
-        padding: 15px;
+    padding: 15px;
     color: #3e3f45;
     font-family: 'Recursive', sans-serif;
     font-size: 20px;
