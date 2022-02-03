@@ -1,5 +1,7 @@
 .App {
+  padding-top: 1em;
   text-align: center;
+  background-color: #ebf3fb;
 }
 
 .App-logo {
@@ -22,11 +24,37 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+    white-space: pre-wrap;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+#currentCity{
+    text-align: center;
+    display:inline-block;
+    align-items: center;
+    color: #3e3f45;
+    font-size: 26px;
+    padding-left: 20em;
+    padding-right: 5em;
+}
+
+#currentCity:hover, #altCity:hover{
+    cursor: pointer;
+    color:#5fb0e8;
+}
+
+#altCity{
+    text-align: center;
+    display:inline-block;
+    color: #3e3f45;
+    font-size: 26px;
+    padding-right: 5em;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +64,4 @@
     transform: rotate(360deg);
   }
 }
+
