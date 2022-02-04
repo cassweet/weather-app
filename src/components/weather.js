@@ -5,6 +5,7 @@ import moment from 'moment';
 import { useState } from 'react';
 import { Component } from 'react';
 import IconWeatherComponent from "./IconWeatherComponent";
+import axios from 'axios'
 
 const CardExampleCard = ({weatherData}) => (
   <Card id="card">

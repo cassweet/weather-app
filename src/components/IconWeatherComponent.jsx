@@ -7,7 +7,7 @@ import { faMist } from '@fortawesome/free-solid-svg-icons'
 import { faClear } from '@fortawesome/free-solid-svg-icons'
 import { faSnow } from '@fortawesome/free-solid-svg-icons'
 
-const icons =   {
+const icons =  {
             Thunderstorm: "faThunderstorm",
             Drizzle: "faRain",
             Rain: "faRain",
@@ -17,7 +17,7 @@ const icons =   {
             Clouds: "faCloud"
         } 
 
-function IconWeatherComponent({icon}) {
+function IconWeatherComponent({icons}) {
 	
 	let [svg, setSvg] = useState('');
 		
